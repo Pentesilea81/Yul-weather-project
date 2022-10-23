@@ -58,4 +58,12 @@ h1 {
   .btn-group {
     font-family: "New Tegomin", serif;
   }
+
+  .gitLink {display: block;
+  margin: 0 auto;
+  text-align: center;
+position: fixed;
+bottom: 10%;
+left: 50%;
+color: rgb(31, 31, 41)}
   
