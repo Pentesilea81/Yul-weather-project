@@ -1,0 +1,61 @@
+h1 {
+    color: rgb(31, 31, 41);
+    text-align: center;
+    font-size: 60px;
+    font-family: "New Tegomin", serif;
+    position: relative;
+  }
+  
+  body {
+    background-color: bisque;
+  }
+  
+  .d-inline-block {
+    background-color: beige;
+  }
+  
+  .col6 {
+    background: #fff;
+    padding: 5px;
+    position: static;
+    text-align: center;
+    right: 0px;
+    top: 10px;
+    margin: 0px;
+    vertical-align: baseline;
+    font-family: "New Tegomin", serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 20px;
+  }
+  
+  .container-md {
+    display: flex;
+    flex-flow: row;
+    row-gap: 30px;
+    text-align: center;
+    font-family: "New Tegomin", serif;
+  }
+  
+  .cityname {
+    font-family: "New Tegomin", serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(31, 31, 41);
+  }
+  
+  .btn-group {
+    font-family: "New Tegomin", serif;
+  }
+  
