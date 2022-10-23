@@ -1,5 +1,3 @@
-import "./styles.css";
-
 let apiKey = "7cdee6b4b8c49eb211278747bdf4efe8";
 
 let now = new Date();
