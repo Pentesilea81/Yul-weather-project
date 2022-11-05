@@ -42,6 +42,10 @@ function showTemperature(response) {
   let iconCode = response.data.weather[0].icon;
   let icon = `http://openweathermap.org/img/wn/${iconCode}@2x.png`;
   currPrecp.src = icon;
+  let windElement = document.querySelector(`#windSpeed`);
+  windElement.innerHTML = Math.round(response.data.wind.speed);
+  let descriptionElement = document.querySelector(`#weatherDescription`);
+  descriptionElement.innerHTML = (response.data.weather[0].description);
 }
 
 function convertToFahrenheit(event) {

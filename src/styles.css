@@ -25,6 +25,8 @@ h1 {
     vertical-align: baseline;
     font-family: "New Tegomin", serif;
   }
+
+  .description {text-transform: capitalize};
   
   .container {
     display: flex;
@@ -39,7 +41,10 @@ h1 {
     width: 20%;
     padding-top: 20px;
   }
-  
+  .currPrecipitations {max-width: 30px;
+  max-height: 30px;
+}
+
   .container-md {
     display: flex;
     flex-flow: row;
