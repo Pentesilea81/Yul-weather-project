@@ -8,7 +8,7 @@ h1 {
   
   body {
     background-color: bisque ;
-  }
+      }
   
   .d-inline-block {
     background-color: #fff4dd;
@@ -26,7 +26,7 @@ h1 {
     font-family: "New Tegomin", serif;
   }
 
-  .description {text-transform: capitalize};
+  .description:first-letter {text-transform: capitalize};
   
   .container {
     display: flex;
@@ -38,12 +38,8 @@ h1 {
   img {
     display: block;
     margin: 0 auto;
-    width: 20%;
-    padding-top: 20px;
-  }
-  .currPrecipitations {max-width: 30px;
-  max-height: 30px;
-}
+      }
+      .futureImages {max-width: 50%;}
 
   .container-md {
     display: flex;
@@ -55,7 +51,7 @@ h1 {
   
   .cityname {
     font-family: "New Tegomin", serif;
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     color: rgb(31, 31, 41);
   }
