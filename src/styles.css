@@ -27,6 +27,8 @@ h1 {
   }
 
   .description:first-letter {text-transform: capitalize};
+
+  .precipitations:first-letter {text-transform: capitalize};
   
   .container {
     display: flex;
@@ -55,16 +57,20 @@ h1 {
     text-align: center;
     color: rgb(31, 31, 41);
   }
+
+  #cityname:first-letter {text-transform: capitalize}
   
   .btn-group {
     font-family: "New Tegomin", serif;
   }
 
-  .gitLink {display: block;
+  .gitLink {font-family: "New Tegomin", serif;
+    display: block;
   margin: 0 auto;
   text-align: center;
 position: fixed;
 bottom: 10%;
 left: 40%;
-color: rgb(31, 31, 41)}
+color: rgb(31, 31, 41)
+}
   
